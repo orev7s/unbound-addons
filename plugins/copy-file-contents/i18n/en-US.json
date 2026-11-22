@@ -1,0 +1,10 @@
+{
+	"COPY_FILE_CONTENTS": "Copy file contents",
+	"MAX_SIZE": "Largest file",
+	"MAX_SIZE_SUBTITLE": "Files bigger than this are left alone, in bytes.",
+	"COPY_CONTENTS": "Copy file contents",
+	"COPIED_FILE": "Copied {name}.",
+	"TOO_LARGE": "{name} is too big to copy.",
+	"NOT_TEXT_FILE": "That file is not text.",
+	"COPY_FILE_FAILED": "Could not read the file."
+}

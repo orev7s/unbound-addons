@@ -1,0 +1,9 @@
+{
+	"SORT_FRIEND_REQUESTS": "Sort friend requests",
+	"DIRECTION": "Order",
+	"DIRECTION_SUBTITLE": "Which end of the list the newest requests sit at.",
+	"NEWEST": "Newest first",
+	"OLDEST": "Oldest first",
+	"SUGGESTIONS": "Sort suggested friends",
+	"SUGGESTIONS_SUBTITLE": "Also orders the suggested friends list, where Discord exposes one."
+}

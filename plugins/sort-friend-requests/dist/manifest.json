@@ -1,0 +1,14 @@
+{
+	"id": "v80q.sort-friend-requests",
+	"name": "Sort Friend Requests",
+	"description": "Orders pending friend requests newest first, or oldest first.",
+	"authors": [
+		{
+			"name": "v80q",
+			"id": "1195808542628774001"
+		}
+	],
+	"version": "1.0.0",
+	"icon": "UserPlusIcon",
+	"main": "index.js"
+}

@@ -1,0 +1,17 @@
+{
+	"MEDIA_SAVER": "Media Saver",
+	"ENABLED": "Stop media on mobile data",
+	"ENABLED_SUBTITLE": "Keeps images and videos from loading over a cellular or metered connection.",
+	"ALLOW_METERED": "Also load on metered",
+	"ALLOW_METERED_SUBTITLE": "Overrides the choices below and loads everything anyway.",
+	"IMAGES": "Images",
+	"IMAGES_SUBTITLE": "Skip ordinary image attachments on mobile data.",
+	"GIFS": "GIFs",
+	"GIFS_SUBTITLE": "Skip animated GIFs on mobile data.",
+	"VIDEOS": "Videos",
+	"VIDEOS_SUBTITLE": "Skip video attachments on mobile data.",
+	"EMOJIS": "Emojis",
+	"EMOJIS_SUBTITLE": "Skip custom emojis on mobile data.",
+	"STICKERS": "Stickers",
+	"STICKERS_SUBTITLE": "Skip stickers on mobile data."
+}

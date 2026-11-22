@@ -1,0 +1,14 @@
+{
+	"id": "v80q.message-reminders",
+	"name": "Message Reminders",
+	"description": "Sets a reminder on a message from its long-press menu and tells you when it is due.",
+	"authors": [
+		{
+			"name": "v80q",
+			"id": "1195808542628774001"
+		}
+	],
+	"version": "1.0.0",
+	"icon": "TimerIcon",
+	"main": "index.tsx"
+}

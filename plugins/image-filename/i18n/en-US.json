@@ -1,0 +1,7 @@
+{
+	"IMAGE_FILENAME": "Image filename",
+	"SHOW_EXTENSION": "Show the extension",
+	"SHOW_EXTENSION_SUBTITLE": "Keeps the .png or .jpg at the end of the name.",
+	"MAX_LENGTH": "Longest name",
+	"MAX_LENGTH_SUBTITLE": "Truncates a longer file name with an ellipsis."
+}

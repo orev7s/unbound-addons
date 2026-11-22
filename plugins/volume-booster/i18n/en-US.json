@@ -1,0 +1,13 @@
+{
+	"VOLUME_BOOSTER": "Volume booster",
+	"ENABLED": "Boost audio",
+	"ENABLED_SUBTITLE": "Amplify audio past the system maximum.",
+	"BOOST_DB": "Boost",
+	"BOOST_DB_SUBTITLE": "How much to amplify, up to the loudness effect's +10 dB ceiling.",
+	"SOURCES": "Sources",
+	"SOURCES_SUBTITLE": "Which audio the boost applies to.",
+	"SOURCE_VOICE": "Voice messages",
+	"SOURCE_VOICE_SUBTITLE": "Amplify voice messages.",
+	"SOURCE_MEDIA": "Media audio",
+	"SOURCE_MEDIA_SUBTITLE": "Amplify music and other playback."
+}

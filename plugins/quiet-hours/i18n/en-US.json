@@ -1,0 +1,22 @@
+{
+	"QUIET_HOURS": "Quiet hours",
+	"ENABLED": "Mute on a schedule",
+	"ENABLED_SUBTITLE": "Mutes the channels and servers below during the window.",
+	"MUTE": "Mute while quiet",
+	"MUTE_SUBTITLE": "Turns the mute back off when the window ends.",
+	"START": "Start",
+	"START_SUBTITLE": "A 24-hour time, such as 22:00.",
+	"END": "End",
+	"END_SUBTITLE": "A 24-hour time; earlier than the start means the window crosses midnight.",
+	"DAYS": "Days",
+	"DAYS_SUBTITLE": "The days a window starts on.",
+	"MON": "Monday",
+	"TUE": "Tuesday",
+	"WED": "Wednesday",
+	"THU": "Thursday",
+	"FRI": "Friday",
+	"SAT": "Saturday",
+	"SUN": "Sunday",
+	"TARGETS": "Channels and servers",
+	"TARGETS_SUBTITLE": "The ids to mute while quiet."
+}

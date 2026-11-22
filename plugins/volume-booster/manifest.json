@@ -1,0 +1,14 @@
+{
+	"id": "v80q.volume-booster",
+	"name": "Volume Booster",
+	"description": "Raises the volume of voice messages and audio past the system maximum.",
+	"authors": [
+		{
+			"name": "v80q",
+			"id": "1195808542628774001"
+		}
+	],
+	"version": "1.0.0",
+	"icon": "HeadphonesIcon",
+	"main": "index.tsx"
+}

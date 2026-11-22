@@ -1,0 +1,14 @@
+{
+	"id": "v80q.media-saver",
+	"name": "Media Saver",
+	"description": "Stops images and videos loading on mobile data.",
+	"authors": [
+		{
+			"name": "v80q",
+			"id": "1195808542628774001"
+		}
+	],
+	"version": "1.0.0",
+	"icon": "CloudDownloadIcon",
+	"main": "index.tsx"
+}

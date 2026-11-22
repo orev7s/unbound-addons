@@ -1,0 +1,14 @@
+{
+	"name": "@v80q/plugin-shared",
+	"private": true,
+	"type": "module",
+	"exports": {
+		"./*": "./src/*.ts"
+	},
+	"devDependencies": {
+		"@types/react": "^19.2.7",
+		"@unbound-app/api": "latest",
+		"react": "^19.3.1",
+		"react-native": "^0.86.0"
+	}
+}

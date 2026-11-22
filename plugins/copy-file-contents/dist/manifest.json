@@ -1,0 +1,14 @@
+{
+	"id": "v80q.copy-file-contents",
+	"name": "Copy File Contents",
+	"description": "Copies the text inside a text file attachment from its long-press menu.",
+	"authors": [
+		{
+			"name": "v80q",
+			"id": "1195808542628774001"
+		}
+	],
+	"version": "1.0.0",
+	"icon": "CopyIcon",
+	"main": "index.js"
+}

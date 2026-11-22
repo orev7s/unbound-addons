@@ -1,0 +1,15 @@
+{
+	"MESSAGE_REMINDERS": "Message reminders",
+	"NOTIFY": "System notification",
+	"NOTIFY_SUBTITLE": "Posts a notification when a reminder is due while Discord is in the background.",
+	"REMIND_ME": "Remind me",
+	"PRESET_10M": "In 10 minutes",
+	"PRESET_1H": "In 1 hour",
+	"PRESET_3H": "In 3 hours",
+	"PRESET_TOMORROW": "Tomorrow morning",
+	"REMINDER_SET": "Reminder set for {when}.",
+	"REMINDER_TITLE": "Message reminder",
+	"REMINDER_DUE": "A message in {channel} is worth another look.",
+	"OPEN": "Open",
+	"REMIND_FAILED": "Could not open the message."
+}

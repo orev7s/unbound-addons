@@ -1,0 +1,21 @@
+{
+	"name": "sort-friend-requests",
+	"private": true,
+	"type": "module",
+	"scripts": {
+		"build": "rollup -c",
+		"lint": "oxlint",
+		"test": "bun test"
+	},
+	"devDependencies": {
+		"@types/bun": "latest",
+		"@types/react": "^19.2.7",
+		"@unbound-app/api": "latest",
+		"@unbound-app/cli": "latest",
+		"oxlint": "^1.91.0",
+		"react": "^19.3.1",
+		"react-native": "^0.86.0",
+		"rollup": "^4.67.5",
+		"typescript": "^7.0.2"
+	}
+}

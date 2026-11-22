@@ -1,0 +1,14 @@
+{
+	"id": "v80q.image-filename",
+	"name": "Image Filename",
+	"description": "Shows an image's file name under it in chat.",
+	"authors": [
+		{
+			"name": "v80q",
+			"id": "1195808542628774001"
+		}
+	],
+	"version": "1.0.0",
+	"icon": "ImageIcon",
+	"main": "index.js"
+}

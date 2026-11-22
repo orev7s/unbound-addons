@@ -1,0 +1,14 @@
+{
+	"id": "v80q.custom-idle",
+	"name": "Custom Idle",
+	"description": "Sets you idle after a delay, with a schedule and exceptions.",
+	"authors": [
+		{
+			"name": "v80q",
+			"id": "1195808542628774001"
+		}
+	],
+	"version": "1.0.0",
+	"icon": "ClockIcon",
+	"main": "index.tsx"
+}
