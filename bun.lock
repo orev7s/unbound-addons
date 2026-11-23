@@ -107,39 +107,8 @@
         "typescript": "^7.0.2",
       },
     },
-    "plugins/send-later": {
-      "name": "send-later",
-      "devDependencies": {
-        "@types/bun": "latest",
-        "@types/react": "^19.2.7",
-        "@unbound-app/api": "latest",
-        "@unbound-app/cli": "latest",
-        "oxlint": "^1.91.0",
-        "react": "^19.3.1",
-        "react-native": "^0.86.0",
-        "rollup": "^4.67.5",
-        "typescript": "^7.0.2",
-      },
-    },
     "plugins/sort-friend-requests": {
       "name": "sort-friend-requests",
-      "devDependencies": {
-        "@types/bun": "latest",
-        "@types/react": "^19.2.7",
-        "@unbound-app/api": "latest",
-        "@unbound-app/cli": "latest",
-        "oxlint": "^1.91.0",
-        "react": "^19.3.1",
-        "react-native": "^0.86.0",
-        "rollup": "^4.67.5",
-        "typescript": "^7.0.2",
-      },
-    },
-    "plugins/voice-download": {
-      "name": "voice-download",
-      "dependencies": {
-        "@v80q/plugin-shared": "workspace:*",
-      },
       "devDependencies": {
         "@types/bun": "latest",
         "@types/react": "^19.2.7",
@@ -1103,8 +1072,6 @@
 
     "send": ["send@1.2.1", "", { "dependencies": { "debug": "^4.4.3", "encodeurl": "^2.0.0", "escape-html": "^1.0.3", "etag": "^1.8.1", "fresh": "^2.0.0", "http-errors": "^2.0.1", "mime-types": "^3.0.2", "ms": "^2.1.3", "on-finished": "^2.4.1", "range-parser": "^1.2.1", "statuses": "^2.0.2" } }, "sha512-1gnZf7DFcoIcajTjTwjwuDjzuz4PPcY2StKPlsGAQ1+YH20IRVrBaXSWmdjowTJ6u8Rc01PoYOGHXfP1mYcZNQ=="],
 
-    "send-later": ["send-later@workspace:plugins/send-later"],
-
     "serialize-error": ["serialize-error@2.1.0", "", {}, "sha512-ghgmKt5o4Tly5yEG/UJp8qTd0AN7Xalw4XBtDEKP655B699qMEtra1WlXeE6WIvdEG481JvRxULKsInq/iNysw=="],
 
     "serve-static": ["serve-static@2.2.1", "", { "dependencies": { "encodeurl": "^2.0.0", "escape-html": "^1.0.3", "parseurl": "^1.3.3", "send": "^1.2.0" } }, "sha512-xRXBn0pPqQTVQiC8wyQrKs2MOlX24zQ0POGaj0kultvoOCstBQM5yvOhAVSUwOMjQtTvsPWoNCHfPGwaaQJhTw=="],
@@ -1211,8 +1178,6 @@
 
     "vlq": ["vlq@1.0.1", "", {}, "sha512-gQpnTgkubC6hQgdIcRdYGDSDc+SaujOdyesZQMv6JlfQee/9Mp0Qhnys6WxDWvQnL5WZdT7o2Ul187aSt0Rq+w=="],
 
-    "voice-download": ["voice-download@workspace:plugins/voice-download"],
-
     "volume-booster": ["volume-booster@workspace:plugins/volume-booster"],
 
     "walker": ["walker@1.0.8", "", { "dependencies": { "makeerror": "1.0.12" } }, "sha512-ts/8E8l5b7kY0vlWLewOkDXMmPdLcVV4GmOQLyxuSswIJsweeFZtAsMF7k1Nszz+TYBQrlYRmzOnr398y1JemQ=="],
@@ -1303,8 +1268,6 @@
 
     "rollup-preserve-directives/magic-string": ["magic-string@0.30.21", "", { "dependencies": { "@jridgewell/sourcemap-codec": "^1.5.5" } }, "sha512-vd2F4YUyEXKGcLHoq+TEyCjxueSeHnFxyyjNp80yg0XV4vUhnDer/lvvlqM/arB5bXQN5K2/3oinyCRyx8T2CQ=="],
 
-    "send-later/@unbound-app/cli": ["@unbound-app/cli@3.5.4", "", { "dependencies": { "@babel/core": "^7.29.7", "@babel/plugin-syntax-jsx": "^7.29.7", "@babel/plugin-transform-arrow-functions": "^7.29.7", "@babel/plugin-transform-block-scoping": "^7.29.7", "@babel/plugin-transform-class-properties": "^7.29.7", "@babel/plugin-transform-classes": "^7.29.7", "@babel/plugin-transform-nullish-coalescing-operator": "^7.29.7", "@babel/plugin-transform-optional-chaining": "^7.29.7", "@babel/plugin-transform-shorthand-properties": "^7.29.7", "@babel/plugin-transform-template-literals": "^7.29.7", "@babel/plugin-transform-unicode-regex": "^7.29.7", "@babel/preset-typescript": "^7.29.7", "@clack/prompts": "^1.9.0", "@jridgewell/sourcemap-codec": "^1.5.0", "@modelcontextprotocol/sdk": "^1.32.2", "@rollup/plugin-commonjs": "^29.0.3", "@rollup/plugin-json": "^6.1.0", "@rollup/plugin-node-resolve": "^16.0.3", "@swc/helpers": "^0.5.17", "@unbound-app/debugger": "1.3.0", "@unbound-app/debugger-protocol": "2.3.0", "@unbound-app/rollup-plugin-hermes": "3.0.4", "better-auth": "1.7.22", "cleye": "^2.7.0", "magic-string": "^1.4.5", "marked": "^18.2.0", "picocolors": "^1.1.1", "rolldown": "^1.3.2", "rollup": "^4.68.2", "rollup-plugin-iife": "^0.8.0", "rollup-plugin-swc3": "^0.12.1", "sharp": "^0.35.5", "thumbhash": "^0.1.1", "typebox": "^1.4.7" }, "peerDependencies": { "typescript": "^7.0.2" }, "bin": { "ubd": "dist/index.mjs" } }, "sha512-6PidzfBDyS+ODSFrBaRNftVavY5V8Y3Cvi1eN6+4hgswJog6o90BF8lO7Dpwtq8WDDeoSmLMpZu+CwknjTuNEg=="],
-
     "sort-friend-requests/@unbound-app/cli": ["@unbound-app/cli@3.5.4", "", { "dependencies": { "@babel/core": "^7.29.7", "@babel/plugin-syntax-jsx": "^7.29.7", "@babel/plugin-transform-arrow-functions": "^7.29.7", "@babel/plugin-transform-block-scoping": "^7.29.7", "@babel/plugin-transform-class-properties": "^7.29.7", "@babel/plugin-transform-classes": "^7.29.7", "@babel/plugin-transform-nullish-coalescing-operator": "^7.29.7", "@babel/plugin-transform-optional-chaining": "^7.29.7", "@babel/plugin-transform-shorthand-properties": "^7.29.7", "@babel/plugin-transform-template-literals": "^7.29.7", "@babel/plugin-transform-unicode-regex": "^7.29.7", "@babel/preset-typescript": "^7.29.7", "@clack/prompts": "^1.9.0", "@jridgewell/sourcemap-codec": "^1.5.0", "@modelcontextprotocol/sdk": "^1.32.2", "@rollup/plugin-commonjs": "^29.0.3", "@rollup/plugin-json": "^6.1.0", "@rollup/plugin-node-resolve": "^16.0.3", "@swc/helpers": "^0.5.17", "@unbound-app/debugger": "1.3.0", "@unbound-app/debugger-protocol": "2.3.0", "@unbound-app/rollup-plugin-hermes": "3.0.4", "better-auth": "1.7.22", "cleye": "^2.7.0", "magic-string": "^1.4.5", "marked": "^18.2.0", "picocolors": "^1.1.1", "rolldown": "^1.3.2", "rollup": "^4.68.2", "rollup-plugin-iife": "^0.8.0", "rollup-plugin-swc3": "^0.12.1", "sharp": "^0.35.5", "thumbhash": "^0.1.1", "typebox": "^1.4.7" }, "peerDependencies": { "typescript": "^7.0.2" }, "bin": { "ubd": "dist/index.mjs" } }, "sha512-6PidzfBDyS+ODSFrBaRNftVavY5V8Y3Cvi1eN6+4hgswJog6o90BF8lO7Dpwtq8WDDeoSmLMpZu+CwknjTuNEg=="],
 
     "source-map-support/source-map": ["source-map@0.6.1", "", {}, "sha512-UjgapumWlbMhkBgzT7Ykc5YXUT46F0iKu8SGXq0bcwP5dz/h0Plj6enJqjz1Zbq2l5WaqYnrVbwWOWMyF3F47g=="],
@@ -1312,8 +1275,6 @@
     "terser/commander": ["commander@2.20.3", "", {}, "sha512-GpVkmM8vF2vQUkj2LvZmD35JxeJOLCwJ9cUkugyk2nuhbv3+mJvpLYYt+0+USMxE+oj+ey/lJEnhZw75x/OMcQ=="],
 
     "type-is/content-type": ["content-type@2.1.0", "", {}, "sha512-mj7UPXE0jaqaOsukNZRUEfEi2AcL7C/vwmwcHV0O97eO1E1pxBZuyjlZrx5seTaNBg1U6+o35wpa35Qfcc+7ag=="],
-
-    "voice-download/@unbound-app/cli": ["@unbound-app/cli@3.5.4", "", { "dependencies": { "@babel/core": "^7.29.7", "@babel/plugin-syntax-jsx": "^7.29.7", "@babel/plugin-transform-arrow-functions": "^7.29.7", "@babel/plugin-transform-block-scoping": "^7.29.7", "@babel/plugin-transform-class-properties": "^7.29.7", "@babel/plugin-transform-classes": "^7.29.7", "@babel/plugin-transform-nullish-coalescing-operator": "^7.29.7", "@babel/plugin-transform-optional-chaining": "^7.29.7", "@babel/plugin-transform-shorthand-properties": "^7.29.7", "@babel/plugin-transform-template-literals": "^7.29.7", "@babel/plugin-transform-unicode-regex": "^7.29.7", "@babel/preset-typescript": "^7.29.7", "@clack/prompts": "^1.9.0", "@jridgewell/sourcemap-codec": "^1.5.0", "@modelcontextprotocol/sdk": "^1.32.2", "@rollup/plugin-commonjs": "^29.0.3", "@rollup/plugin-json": "^6.1.0", "@rollup/plugin-node-resolve": "^16.0.3", "@swc/helpers": "^0.5.17", "@unbound-app/debugger": "1.3.0", "@unbound-app/debugger-protocol": "2.3.0", "@unbound-app/rollup-plugin-hermes": "3.0.4", "better-auth": "1.7.22", "cleye": "^2.7.0", "magic-string": "^1.4.5", "marked": "^18.2.0", "picocolors": "^1.1.1", "rolldown": "^1.3.2", "rollup": "^4.68.2", "rollup-plugin-iife": "^0.8.0", "rollup-plugin-swc3": "^0.12.1", "sharp": "^0.35.5", "thumbhash": "^0.1.1", "typebox": "^1.4.7" }, "peerDependencies": { "typescript": "^7.0.2" }, "bin": { "ubd": "dist/index.mjs" } }, "sha512-6PidzfBDyS+ODSFrBaRNftVavY5V8Y3Cvi1eN6+4hgswJog6o90BF8lO7Dpwtq8WDDeoSmLMpZu+CwknjTuNEg=="],
 
     "volume-booster/@unbound-app/cli": ["@unbound-app/cli@3.5.4", "", { "dependencies": { "@babel/core": "^7.29.7", "@babel/plugin-syntax-jsx": "^7.29.7", "@babel/plugin-transform-arrow-functions": "^7.29.7", "@babel/plugin-transform-block-scoping": "^7.29.7", "@babel/plugin-transform-class-properties": "^7.29.7", "@babel/plugin-transform-classes": "^7.29.7", "@babel/plugin-transform-nullish-coalescing-operator": "^7.29.7", "@babel/plugin-transform-optional-chaining": "^7.29.7", "@babel/plugin-transform-shorthand-properties": "^7.29.7", "@babel/plugin-transform-template-literals": "^7.29.7", "@babel/plugin-transform-unicode-regex": "^7.29.7", "@babel/preset-typescript": "^7.29.7", "@clack/prompts": "^1.9.0", "@jridgewell/sourcemap-codec": "^1.5.0", "@modelcontextprotocol/sdk": "^1.32.2", "@rollup/plugin-commonjs": "^29.0.3", "@rollup/plugin-json": "^6.1.0", "@rollup/plugin-node-resolve": "^16.0.3", "@swc/helpers": "^0.5.17", "@unbound-app/debugger": "1.3.0", "@unbound-app/debugger-protocol": "2.3.0", "@unbound-app/rollup-plugin-hermes": "3.0.4", "better-auth": "1.7.22", "cleye": "^2.7.0", "magic-string": "^1.4.5", "marked": "^18.2.0", "picocolors": "^1.1.1", "rolldown": "^1.3.2", "rollup": "^4.68.2", "rollup-plugin-iife": "^0.8.0", "rollup-plugin-swc3": "^0.12.1", "sharp": "^0.35.5", "thumbhash": "^0.1.1", "typebox": "^1.4.7" }, "peerDependencies": { "typescript": "^7.0.2" }, "bin": { "ubd": "dist/index.mjs" } }, "sha512-6PidzfBDyS+ODSFrBaRNftVavY5V8Y3Cvi1eN6+4hgswJog6o90BF8lO7Dpwtq8WDDeoSmLMpZu+CwknjTuNEg=="],
 
