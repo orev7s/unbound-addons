@@ -12,13 +12,13 @@ Never edit anything under `/home/ubuntu/projects/unbound`.
 
 ## Finished references (copy their shape)
 
-- `plugins/send-later` - a slash-command plugin with pure logic, i18n, settings and tests.
-- `plugins/voice-download` - an action-sheet row plus Android/iOS native save, using
-  `@v80q/plugin-shared` and `metro.definePlatform`.
+- `plugins/custom-idle` - a settings-heavy plugin with pure decision logic, i18n and tests.
+- `plugins/copy-file-contents` - an action-sheet row using `@v80q/plugin-shared`.
+- `plugins/volume-booster` - an Android native apply through `metro.definePlatform` and the Java bridge.
 
 ## Adding a plugin
 
-1. Create `plugins/<kebab-name>/` and copy the config from `plugins/send-later`: `rollup.config.mjs`,
+1. Create `plugins/<kebab-name>/` and copy the config from `plugins/custom-idle`: `rollup.config.mjs`,
    `bunfig.toml`, `.oxlintrc.json`, `tsconfig.json`, `.gitignore`, and a `package.json` with the same
    `devDependencies` (add `"@v80q/plugin-shared": "workspace:*"` to `dependencies` when you import it).
 2. Write `manifest.json` (`id: v80q.<name>`, `name`, `description` <= 160 chars, `authors` as
@@ -64,7 +64,7 @@ Imports come from `@unbound-app/api` (and subpaths like `@unbound-app/api/native
   `getClass`, `invoke`, `construct`, `getField`, and the tagged values in
   `@v80q/plugin-shared/native/android/java-values`.
 - Background: `unbound.background?.add('name', job)` (import `background` will break tests; use the
-  `unbound` global with a guard, as `send-later` does).
+  `unbound` global with a guard).
 - Device state: `globalThis.NativePlatform?.device?.getState?.()` -> `{ network?: { type:
   'wifi'|'cellular'|'ethernet'|'other'|'offline', metered?, lowData? }, power?, ... }`.
 
@@ -73,7 +73,7 @@ Imports come from `@unbound-app/api` (and subpaths like `@unbound-app/api/native
 - A file at `src/` root must be one of `index.tsx`, `settings.tsx`, `patches.ts`, `commands.ts`,
   `actions.ts`, or a folder (`native/`, `flux/`, `components/`, `lib/`). Put helpers in `lib/`.
 - Native calls must be reachable by name. Do not pass a `NativeBridge` parameter into a function;
-  pass a getter `() => NativeBridge` and call `save(bridge(), ...)` (see `voice-download`).
+  pass a getter `() => NativeBridge` and call `save(bridge(), ...)` (see `volume-booster`).
 - `native.definePlatform` handlers must be imported bindings (`{ ios, android }`), not arrow wrappers.
   Platform files live in `src/native/ios/` and `src/native/android/` and are selected by the
   `definePlatform` call in `src/native/<name>.ts`.
@@ -112,7 +112,7 @@ target is uncertain, use a props-based lookup (`metro.findByProps(...)`) with a 
 2. **copy-file-contents** - "Copies the text inside a file attachment." Add a row to the message
    long-press sheet for text-like attachments (`.txt`, `.md`, `.json`, `.csv`, code, `.log`) that
    fetches the attachment `url`, then `metro.common.Clipboard.setString(text)` and toasts success.
-   Guard on size. Use the action-sheet helpers (see `voice-download`). Tests: the "is this a
+   Guard on size. Use the action-sheet helpers (see `copy-file-contents`). Tests: the "is this a
    copyable file" predicate and the size guard.
 
 3. **sort-friend-requests** - "Orders pending friend requests newest first." Sort incoming/outgoing
